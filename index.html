@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Cyrano Game</title>
+  <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
   <meta name="description" content="">
 
@@ -25,8 +26,11 @@
 <body>
 
   <div id="starting-screen">
-    <h1>Cyrano Game</h1>
-    <button id="start-button" onclick="initGame()">Start</button>
+    <h1>Jeu de cartes Cyrano de Bergerac</h1>
+    <div class="buttons">
+      <button id="start-button" onclick="initGame()">Nouvelle partie</button>
+      <button id="rules-button" onclick="displayRules()">Afficher les règles</button>
+    </div>
   </div>
   <script src="js/app.js"></script>
 </body>
